@@ -1,0 +1,7 @@
+	function onMapClick(e) {
+		popup
+			.setLatLng(e.latlng)
+			console.log(e.latlng.toString())
+	}
+
+	map.on('click', onMapClick);
